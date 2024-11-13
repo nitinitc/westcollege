@@ -1,0 +1,24 @@
+mkdir GitHub
+cd GitHub
+mdkir my_project
+cd my_project
+git init 
+git config -- global user.name"Nitin"
+git config -- global.user.email"email"
+git remote add origin https://github.com/.git
+git remote -v
+git remote set-url origin https://github.com/.git
+git fetch origin 
+git log
+git switch main
+git pull origin
+git log
+add changes in local file
+git add .
+git commit -m "modified the backcolour"
+git push origin 
+
+
+
+ 
+
